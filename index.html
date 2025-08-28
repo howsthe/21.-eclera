@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="centerbox">
+            <h1><a href="#">ECLERA</a></h1>
+
+            <div class="hamburger">
+                <span></span>
+            </div>
+    
+            <nav class="pc_nav pc">
+                <ul class="gnb">
+                    <li>
+                        <a href="#">베스트</a>
+                    </li>
+                    <li>
+                        <a href="#">2025 컬렉션</a>
+                    </li>
+                    <li>
+                        <a href="#">여성</a>
+                    </li>
+                    <li>
+                        <a href="#">남성</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="icons pc">
+                <a href="#" class="titFont">ACCOUNT</a>
+                <a href="#" class="ico_search"><img src="images/icon_search.png" alt="검색"></a>
+                <a href="#"><img src="images/icon_wish.png" alt="즐겨찾기"></a>
+                <a href="#"><img src="images/icon_bag.png" alt="장바구니"></a>
+            </div>
+
+            
+                <div class="mo_wrap mo">
+                    <div class="mo_navbox">
+                        <div class="mo_icons"></div>
+                        <nav class="mo_nav"></nav>
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    
+
+    <div class="visual swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/main.png" alt="">
+                <div class="textbox titFont">
+                    <strong>SUMMER COLLECTION</strong>
+                    <p>ENJOY YOUR STYLE</p>
+                    <a href="#">VIEW</a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/main2.png" alt="">
+                <div class="textbox titFont">
+                    <strong>SUMMER COLLECTION</strong>
+                    <p>ENJOY YOUR STYLE2</p>
+                    <a href="#">VIEW</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        
+
+        <div class="search_box">
+            <form action="">
+                <input type="text" placeholder="검색어를 입력해주세요" maxlength="20">
+                <button><img src="images/icon_search.png" alt="검색"></button>
+            </form>
+            <a href="#" class="btn_close"></a>
+        </div>
+    </div>
+
+    <div class="section_box">
+        <section class="section1">
+            <div class="centerbox">
+                <div class="textbox titFont">
+                    <h2>BEST
+                        <span>PRODUCT</span>
+                    </h2>
+                    <div class="slide_btn_box">
+                        <span class="btn_left"><img src="images/arrow_left.png" alt=""></span>
+                        <span class="btn_right"><img src="images/arrow_right.png" alt=""></span>
+                    </div>
+                </div>
+                <div class="part1_slidebox swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/sec1_1.png" alt="">
+                            <div class="text">
+                                <span class="name">상품명1</span>
+                                <span class="price">25,000</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sec1_2.png" alt="">
+                            <div class="text">
+                                <span class="name">상품명2</span>
+                                <span class="price">25,000</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sec1_3.png" alt="">
+                            <div class="text">
+                                <span class="name">상품명3</span>
+                                <span class="price">25,000</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sec1_4.png" alt="">
+                            <div class="text">
+                                <span class="name">상품명4</span>
+                                <span class="price">25,000</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sec1_5.png" alt="">
+                            <div class="text">
+                                <span class="name">상품명5</span>
+                                <span class="price">25,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section2">
+            <div class="centerbox">
+                <h2 class="titFont">
+                    2025 SUMMER
+                    <span>COLLECTION</span>
+                </h2>
+                <div class="content_box">
+                    <div class="textbox titFont">
+                        <strong>2025 SUMMER</strong>
+                        <em>COLLECTION</em>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, amet maiores laboriosam sint explicabo aliquid doloremque</p>
+                        <div class="btn_box">
+                            <a href="#" class="btn">GET</a>
+                        </div>
+                    </div>
+    
+                    <ul class="collection">
+                        <li><img src="images/sec2_1_2.png" alt=""></li>
+                        <li><img src="images/sec2_2_2.png" alt=""></li>
+                        <li><img src="images/sec2_3_2.png" alt=""></li>
+                    </ul>
+    
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section3">
+            <div class="left_cont">
+                <div class="bigimg">
+                    <img src="images/sec3_1.png" alt="">
+                </div>
+                <div class="slide_img">
+                    <ul>
+                        <li><img src="images/sec3_1.png" alt="" data-title="SPRING"></li>
+                        <li><img src="images/sec3_2.png" alt="" data-title="SUMMER"></li>
+                        <li><img src="images/sec3_3.png" alt="" data-title="FALL"></li>
+                    </ul>
+
+                    <div class="number"></div>
+
+                    <!-- <div class="slide_contents">
+                        <ul class="slide1">
+                            <li class="title">제목제목제목</li>
+                            <li class="detail">내용내용내용</li>
+                            <li class="date">날짜날짜</li>
+                        </ul>
+                        <ul class="slide2">
+                            <li class="title">제목제목제목</li>
+                            <li class="detail">내용내용내용</li>
+                            <li class="date">날짜날짜</li>
+                        </ul>
+                        <ul class="slide3">
+                            <li class="title">제목제목제목</li>
+                            <li class="detail">내용내용내용</li>
+                            <li class="date">날짜날짜</li>
+                        </ul>
+                    </div> -->
+
+
+
+                    <div class="slide_btn_box">
+                        <span class="btn_left"><img src="images/arrow_left.png" alt=""></span>
+                        <span class="btn_right"><img src="images/arrow_right.png" alt=""></span>
+                    </div>
+
+                    <div class="pagination">
+                        <!-- <span></span>
+                        <span></span>
+                        <span></span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="right_cont">
+                <div class="textbox titFont">
+                    <strong>제목 <i>COMMING SOON</i> </strong>
+                    <em>COLLECTION</em>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, amet maiores laboriosam sint explicabo aliquid doloremque</p>
+                    <div class="btn_box">
+                        <a href="#" class="btn">GET</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section4">
+            <div class="centerbox">
+                <h2 class="titFont">EVENT</h2>
+
+                <ul class="content">
+                    <li>
+                        <a href="#"><img src="images/sec4_1_1.png" alt=""></a>
+                        </li>
+                    <li>
+                        <a href="#"><img src="images/sec4_2_1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/sec4_3_1.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer></footer>
+
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".visual", {
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            effect: "fade",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        var swiper = new Swiper(".part1_slidebox", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".btn_right",
+                prevEl: ".btn_left",
+            },
+            loop: true,
+            slidesPerView: 1,   // 기본 (모바일)
+            spaceBetween: 28,
+            
+            // 반응형 옵션
+            breakpoints: {
+                640: {  // 화면이 640px 이상일 때
+                slidesPerView: 2,
+                spaceBetween: 15,
+                },
+                1024: { // 화면이 1024px 이상일 때
+                slidesPerView: 3,
+                spaceBetween: 20,
+                },
+                1440: { // 화면이 1440px 이상일 때
+                slidesPerView: 3.8,
+                spaceBetween: 28,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        let slideW = $('.slide_img').width();  //840
+        let slideH = $('.slide_img').height();
+        let slideLiLength = $('.slide_img li').length;
+        let clickSu = 0;
+        let time = 3000;
+        let speed = 1000;
+        let autoClick;
+        
+        $('.slide_img li').css({width:slideW, height:slideH});
+        $('.slide_img ul').width(slideW * slideLiLength);
+
+        $(window).resize(function(){
+            slideW = $('.slide_img').width();  //840
+            slideH = $('.slide_img').height();
+            slideLiLength = $('.slide_img li').length;
+            $('.slide_img li').css({width:slideW, height:slideH});
+            $('.slide_img ul').width(slideW * slideLiLength);
+        })
+
+        //초기모습
+        //$('.section3 .btn_left').css({opacity:0.3, pointerEvents:'none'})
+        //1번째 방법
+        // $('.section3 .btn_right').click(function(){
+        //     clickSu++
+        //     $('.slide_img ul').animate({left:-slideW * clickSu});
+        //     $('.btn_left').css({opacity:1, pointerEvents:''})
+        //     if(clickSu >= 2){
+        //         $('.btn_right').css({opacity:0.3, pointerEvents:'none'})
+        //     }
+        //     let slideTitle = $('.slide_img li').eq(clickSu).find('img').attr('data-title');
+        //     $('.right_cont strong').text(slideTitle);
+            
+        //     console.log(clickSu);
+        // });
+        // $('.section3 .btn_left').click(function(){
+        //     clickSu--
+        //     $('.slide_img ul').animate({left:-slideW * clickSu});
+        //     $('.btn_right').css({opacity:1, pointerEvents:''})
+        //     if(clickSu <= 0){
+        //         $('.btn_left').css({opacity:0.3, pointerEvents:'none'})
+        //     }
+        //     console.log(clickSu);          
+        // });
+        
+        //2번 방법
+        // $('.section3 .btn_right').click(function(){
+        //     clickSu++
+        //     if(clickSu >= slideLiLength){
+        //         clickSu = 0
+        //     }
+        //     $('.slide_img ul').animate({left:-slideW * clickSu});
+        // });
+        // $('.section3 .btn_left').click(function(){
+        //     clickSu--
+        //     if(clickSu < 0){
+        //         clickSu = slideLiLength-1
+        //     }
+        //     $('.slide_img ul').animate({left:-slideW * clickSu});
+        // });
+
+        //3번째 방법
+        
+        //초기모습
+        $('.bigimg img').attr('src',$('.slide_img li').eq(slideLiLength-1).find('img').attr('src'));
+
+        $('.section3 .btn_right').click(function(){
+            clearTimeout(autoClick);
+            $('.slide_img ul').stop().animate({left:-slideW}, speed, function(){
+                $('.slide_img li').eq(0).appendTo('.slide_img ul');
+                $('.slide_img ul').css({left:0})
+            });
+            let firstImgSrc = $('.slide_img li').eq(0).find('img').attr('src');
+            $('.bigimg img').removeClass();
+            setTimeout(function(){
+                $('.bigimg img').attr('src',firstImgSrc).addClass('on');
+            },500);
+
+            autoClick = setTimeout(rightClick, time);
+        });
+
+        $('.section3 .btn_left').click(function(){
+            clearTimeout(autoClick);
+            $('.slide_img li').eq(2).prependTo('.slide_img ul');
+            $('.slide_img ul').css({left:-slideW})
+            $('.slide_img ul').stop().animate({left:0}, speed);
+            
+            let firstImgSrc = $('.slide_img li').eq(2).find('img').attr('src');
+            $('.bigimg img').removeClass();
+            setTimeout(function(){
+                $('.bigimg img').attr('src',firstImgSrc).addClass('on');
+            },500);
+
+            autoClick = setTimeout(rightClick, time);
+        });
+
+        // pagination
+        // for(let i = 0; i<slideLiLength ;i++){
+        //     $('.pagination').append('<span></span>')
+        // }
+        // $('.pagination span').eq(0).addClass('on');
+
+        // $('.pagination span').click(function(){
+        //     $('.slide_img ul').animate({left:-slideW}, 300, function(){
+        //         $('.slide_img li').eq(0).appendTo('.slide_img ul');
+        //         $('.slide_img ul').css({left:0})
+        //     });
+        // })
+
+        autoClick = setTimeout(rightClick, time)
+        
+
+        function rightClick(){
+            $('.section3 .btn_right').click()
+        }
+    </script>
+</body>
+</html>
