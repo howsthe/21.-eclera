@@ -465,7 +465,7 @@ header .icons a:first-child {
   .mo_navbox .mo_icons a {font-size: 16px;height: 40px;line-height: 40px;text-align: center;width: 33.33%;border: 1px solid #ddd;display: flex;align-items: center;justify-content: center;box-sizing: border-box;border-right: 0 ;border-top: 0;}
   .mo_navbox .mo_icons a:first-child {order: 1;width: 100%;border-left: 0;border-right: 0 ;}
   .mo_navbox .mo_icons a:nth-child(2) {border-left: 0;}
-  .mo_navbox .mo_nav {width: 90%;margin: 0 auto;}
+  .mo_navbox .mo_nav {width: 90%;margin: 0 auto;height: 100%;}
   .mo_navbox .mo_nav .gnb {}
   .mo_navbox .mo_nav .gnb li {font-size: 18px;text-align: center;border-bottom: 1px solid #ddd;}
   .mo_navbox .mo_nav .gnb li a {padding: 30px 0;display: block;}
